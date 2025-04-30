@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Screen\Administrator\UCDashbord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Screen\login\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Screen\MainScreen\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Screen\Parmacit\frmPharmacist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Screen\User\UC_AddNewUse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Screen\User\UC_ViewUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
