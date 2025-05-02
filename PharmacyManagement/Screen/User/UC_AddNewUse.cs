@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using Microsoft.EntityFrameworkCore;
 using PharmacyManagement.Classes;
 using PharmacyManagement.Data;
 using PharmacyManagement.Entites;
@@ -23,11 +25,46 @@ namespace PharmacyManagement.Screen.User
 
 
 
-
+            _mode = enMode.Add;
         }
 
 
+        public UC_AddNewUse(Entites.User user)
+        {
+            InitializeComponent();
 
+
+
+            _mode = enMode.Update;
+            _user = user;
+            _LodDatatolabl();
+
+        }
+
+        enum enMode {Add , Update };
+        Entites.User _user =new Entites.User();    
+        enMode _mode = enMode.Add;
+
+        private void _LodDatatolabl()
+        {
+
+
+            lbMode.Text = "Update User";
+
+            tbpassword.Visible = false;
+            pbImage.Image = _user.Person.Image == null ? null : Image.FromStream(new MemoryStream(_user.Person.Image));
+
+            DTBBirthDate.Text = _user.Person.BirthDate.ToString();
+            tbEmail.Text = _user.Person.Email;
+            tbName.Text = _user.Person.Name;
+            tbPhone.Text = _user.Person.Phone;
+            tbUserName.Text = _user.UserName;
+            cbUserRolee.Text = _user.Role;
+
+
+                
+              
+        }
         private void tbUserName_Validating_Click_1(object sender, CancelEventArgs e)
         {
             if (!(bool)guna2CirclePictureBox1.Tag)
@@ -101,54 +138,99 @@ namespace PharmacyManagement.Screen.User
 
 
         private void btSave_Click_1(object sender, EventArgs e)
-        {
-            if (tbPhone.Text.Length < 1 || tbEmail.Text.Length < 1 || cbUserRolee.Text.Length < 1 || tbName.Text.Length < 1 || tbpassword.Text.Length < 1 || tbUserName.Text.Length < 1)
-            {
-                MessageBox.Show("Some fileds are not valide!, put the mouse over the red icon(s) to see the erro", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-
+        {  
             try
             {
+
                 using (AppDbContext db = new AppDbContext())
                 {
 
-                    DateTime date = Convert.ToDateTime(DTBBirthDate.Text);
 
-                    var Image = pbImage.Image == Resources.addUser ? null : clsGlobal.GetPhoto(pbImage);
 
-                    Pepole newperson = new Pepole
+                    if (_mode == enMode.Update)
                     {
-                        Email = tbEmail.Text.Trim(),
-                        BirthDate = date,
-                        //  Image = (Convert.ToInt32(pbImage.Tag) == 2) ? null : clsGlobal.GetPhoto(pbImage),
-                        Image = Image,
-                        Name = tbName.Text.Trim(),
-                        Phone = tbPhone.Text.Trim()
-                    };
+                        if (tbPhone.Text.Length < 1 || tbEmail.Text.Length < 1 || cbUserRolee.Text.Length < 1 || tbName.Text.Length < 1 ||  tbUserName.Text.Length < 1)
+                        {
+                            MessageBox.Show("Some fileds are not valide!, put the mouse over the red icon(s) to see the erro", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+
+                        var user = db.Users.Include(u => u.Person).SingleOrDefault(u => u.Id == _user.Id);
+                        DateTime date = Convert.ToDateTime(DTBBirthDate.Text);
+
+                        var Image = pbImage.Image == Resources.addUser ? null : clsGlobal.GetPhoto(pbImage);
+
+                        
+                            user.Person.Email = tbEmail.Text.Trim();
+                            user.Person.BirthDate = date;
+                            //  Image = (Convert.ToInt32(pbImage.Tag) == 2) ? null : clsGlobal.GetPhoto(pbImage),
+                            user.Person.Image = Image;
+                            user.Person.Name = tbName.Text.Trim();
+                            user.Person.Phone = tbPhone.Text.Trim();
+
+                            user.UserName = tbUserName.Text.Trim();
+                           user.Role = cbUserRolee.Text.Trim();
 
 
+                        db.SaveChanges();
+                        MessageBox.Show("Data Updated Successfully.", "Updated", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                       
 
-
-
-
-                    Entites.User newuser = new Entites.User
+                    }
+                    else
                     {
 
-                        Password = clsGlobal.ComputeHash(tbpassword.Text.Trim()),
-                        UserName = tbUserName.Text.Trim(),
-                        Role = cbUserRolee.Text.Trim(),
-                        Person = newperson
+                        if (tbPhone.Text.Length < 1 || tbEmail.Text.Length < 1 || cbUserRolee.Text.Length < 1 || tbName.Text.Length < 1 || tbpassword.Text.Length < 1 || tbUserName.Text.Length < 1)
+                        {
+                            MessageBox.Show("Some fileds are not valide!, put the mouse over the red icon(s) to see the erro", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
 
 
-                    };
+                        DateTime date = Convert.ToDateTime(DTBBirthDate.Text);
 
-                    db.Users.Add(newuser);
-                    db.SaveChanges();
-                    MessageBox.Show("Data Saved Successfully.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    _resetAllTextBox();
+                        var Image = pbImage.Image == Resources.addUser ? null : clsGlobal.GetPhoto(pbImage);
+
+                        Pepole newperson = new Pepole
+                        {
+                            Email = tbEmail.Text.Trim(),
+                            BirthDate = date,
+                            //  Image = (Convert.ToInt32(pbImage.Tag) == 2) ? null : clsGlobal.GetPhoto(pbImage),
+                            Image = Image,
+                            Name = tbName.Text.Trim(),
+                            Phone = tbPhone.Text.Trim()
+                        };
+
+
+
+
+
+
+                        Entites.User newuser = new Entites.User
+                        {
+
+                            Password = clsGlobal.ComputeHash(tbpassword.Text.Trim()),
+                            UserName = tbUserName.Text.Trim(),
+                            Role = cbUserRolee.Text.Trim(),
+                            Person = newperson
+
+
+                        };
+
+                        db.Users.Add(newuser);
+                        db.SaveChanges();
+                        MessageBox.Show("Data Saved Successfully.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        _resetAllTextBox();
+                    }
+
+
+
+
+
+
                 }
+                   
+                
             }
             catch
             {
@@ -223,7 +305,10 @@ namespace PharmacyManagement.Screen.User
 
         private void UC_AddNewUse_Load(object sender, EventArgs e)
         {
-
+            if(_mode == enMode.Update)
+            {
+                _LodDatatolabl();
+            }
         }
     }
 }

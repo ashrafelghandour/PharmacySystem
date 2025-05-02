@@ -1,4 +1,6 @@
-﻿namespace PharmacyManagement.Screen.MainScreen
+﻿using PharmacyManagement.Classes;
+
+namespace PharmacyManagement.Screen.MainScreen
 {
     partial class MainForm
     {
@@ -52,13 +54,15 @@
             btDashbord = new Guna.UI2.WinForms.Guna2Button();
             lbUsername = new Label();
             pictureBox1 = new PictureBox();
+            uC_ViewUser1 = new User.UC_ViewUser();
             guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            uC_AddNewUse1 = new User.UC_AddNewUse(clsGlobal.CurrentUser);
             uC_AddUser1 = new User.UC_AddNewUse();
             ucDashbord1 = new Administrator.UCDashbord();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(components);
-            uC_ViewUser1 = new User.UC_ViewUser();
+            guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(components);
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -243,17 +247,34 @@
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
+            // uC_ViewUser1
+            // 
+            uC_ViewUser1.BackColor = SystemColors.ControlDarkDark;
+            uC_ViewUser1.Location = new Point(0, 0);
+            uC_ViewUser1.Name = "uC_ViewUser1";
+            uC_ViewUser1.Size = new Size(882, 1133);
+            uC_ViewUser1.TabIndex = 2;
+            // 
             // guna2CustomGradientPanel1
             // 
-            guna2CustomGradientPanel1.Controls.Add(uC_ViewUser1);
+            guna2CustomGradientPanel1.Controls.Add(uC_AddNewUse1);
             guna2CustomGradientPanel1.Controls.Add(uC_AddUser1);
             guna2CustomGradientPanel1.Controls.Add(ucDashbord1);
+            guna2CustomGradientPanel1.Controls.Add(uC_ViewUser1);
             guna2CustomGradientPanel1.CustomizableEdges = customizableEdges11;
-            guna2CustomGradientPanel1.Location = new Point(375, 0);
+            guna2CustomGradientPanel1.Location = new Point(372, 0);
             guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2CustomGradientPanel1.Size = new Size(932, 1046);
             guna2CustomGradientPanel1.TabIndex = 2;
+            // 
+            // uC_AddNewUse1
+            // 
+            uC_AddNewUse1.BackColor = Color.DimGray;
+            uC_AddNewUse1.Location = new Point(3, 3);
+            uC_AddNewUse1.Name = "uC_AddNewUse1";
+            uC_AddNewUse1.Size = new Size(882, 1133);
+            uC_AddNewUse1.TabIndex = 4;
             // 
             // uC_AddUser1
             // 
@@ -261,13 +282,12 @@
             uC_AddUser1.Location = new Point(0, 0);
             uC_AddUser1.Name = "uC_AddUser1";
             uC_AddUser1.Size = new Size(882, 1133);
-            uC_AddUser1.TabIndex = 1;
-            uC_AddUser1.Load += uC_AddUser1_Load_1;
+            uC_AddUser1.TabIndex = 3;
             // 
             // ucDashbord1
             // 
             ucDashbord1.BackColor = Color.White;
-            ucDashbord1.Location = new Point(0, -33);
+            ucDashbord1.Location = new Point(0, 0);
             ucDashbord1.Name = "ucDashbord1";
             ucDashbord1.Size = new Size(882, 1049);
             ucDashbord1.TabIndex = 0;
@@ -284,13 +304,9 @@
             // 
             guna2Elipse3.TargetControl = guna2CustomGradientPanel1;
             // 
-            // uC_ViewUser1
+            // guna2Elipse4
             // 
-            uC_ViewUser1.BackColor = SystemColors.ControlDarkDark;
-            uC_ViewUser1.Location = new Point(3, 0);
-            uC_ViewUser1.Name = "uC_ViewUser1";
-            uC_ViewUser1.Size = new Size(882, 1133);
-            uC_ViewUser1.TabIndex = 2;
+            guna2Elipse4.TargetControl = uC_AddUser1;
             // 
             // MainForm
             // 
@@ -325,11 +341,13 @@
         private PictureBox pictureBox3;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
-        private Administrator.UCDashbord ucDashbord1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
-        private User.UC_AddNewUse uC_AddUser1;
         private Label lblusername;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private User.UC_ViewUser uC_ViewUser1;
+        private Administrator.UCDashbord ucDashbord1;
+        private User.UC_AddNewUse uC_AddUser1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
+        private User.UC_AddNewUse uC_AddNewUse1;
     }
 }

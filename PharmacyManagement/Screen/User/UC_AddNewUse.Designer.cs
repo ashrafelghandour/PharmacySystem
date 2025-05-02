@@ -55,7 +55,7 @@
             tbPhone = new Guna.UI2.WinForms.Guna2TextBox();
             llRemoveImage = new LinkLabel();
             llsetImage = new LinkLabel();
-            label1 = new Label();
+            lbMode = new Label();
             guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             btreset = new Guna.UI2.WinForms.Guna2Button();
             btSave = new Guna.UI2.WinForms.Guna2Button();
@@ -134,15 +134,15 @@
             llsetImage.Text = "Set Image";
             llsetImage.LinkClicked += llsetImage_LinkClicked_1;
             // 
-            // label1
+            // lbMode
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Calibri", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(102, 77);
-            label1.Name = "label1";
-            label1.Size = new Size(91, 26);
-            label1.TabIndex = 78;
-            label1.Text = "Add User";
+            lbMode.AutoSize = true;
+            lbMode.Font = new Font("Calibri", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lbMode.Location = new Point(102, 77);
+            lbMode.Name = "lbMode";
+            lbMode.Size = new Size(91, 26);
+            lbMode.TabIndex = 78;
+            lbMode.Text = "Add User";
             // 
             // guna2CirclePictureBox1
             // 
@@ -426,7 +426,7 @@
             Controls.Add(tbPhone);
             Controls.Add(llRemoveImage);
             Controls.Add(llsetImage);
-            Controls.Add(label1);
+            Controls.Add(lbMode);
             Controls.Add(guna2CirclePictureBox1);
             Controls.Add(btreset);
             Controls.Add(btSave);
@@ -460,7 +460,7 @@
         private Guna.UI2.WinForms.Guna2TextBox tbPhone;
         private LinkLabel llRemoveImage;
         private LinkLabel llsetImage;
-        private Label label1;
+        private Label lbMode;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2Button btreset;
         private Guna.UI2.WinForms.Guna2Button btSave;

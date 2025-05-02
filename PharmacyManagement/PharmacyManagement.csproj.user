@@ -13,6 +13,12 @@
     <Compile Update="Screen\Parmacit\frmPharmacist.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Screen\User\frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Screen\User\frmUserProfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Screen\User\UC_AddNewUse.cs">
       <SubType>UserControl</SubType>
     </Compile>

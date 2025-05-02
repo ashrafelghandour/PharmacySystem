@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using PharmacyManagement.Classes;
+using PharmacyManagement.Screen.Administrator;
+using PharmacyManagement.Screen.User;
 
 namespace PharmacyManagement.Screen.MainScreen
 {
@@ -33,8 +35,8 @@ namespace PharmacyManagement.Screen.MainScreen
 
         private void btDashbord_Click(object sender, EventArgs e)
         {
-            ucDashbord1.Visible = true;
-            uC_AddUser1.Visible = false;
+           ucDashbord1.Visible = true;
+           uC_AddUser1.Visible = false;
 
             ucDashbord1.BringToFront();
         }
@@ -47,7 +49,6 @@ namespace PharmacyManagement.Screen.MainScreen
 
         private void btAddUser_Click(object sender, EventArgs e)
         {
-
             ucDashbord1.Visible = false;
             uC_AddUser1.Visible = true;
             uC_AddUser1.BringToFront();
@@ -70,8 +71,22 @@ namespace PharmacyManagement.Screen.MainScreen
 
         private void btProfile_Click(object sender, EventArgs e)
         {
+            llUserProfil frm = new llUserProfil();
+            frm.DataBack += DataBackEvent;
+
+            frm.ShowDialog();
 
         }
+
+        private void DataBackEvent(object sender, Entites.User user)
+        {
+              ucDashbord1.Visible = false;
+              uC_AddNewUse1.Visible = true;
+            uC_AddNewUse1.BringToFront();
+ 
+        }
+
+        
 
         private void uC_AddUser1_Load(object sender, EventArgs e)
         {

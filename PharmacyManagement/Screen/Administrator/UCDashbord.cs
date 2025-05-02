@@ -17,6 +17,9 @@ namespace PharmacyManagement.Screen.Administrator
         public UCDashbord()
         {
             InitializeComponent();
+            if (!this.DesignMode)
+            {
+            }
         }
 
 

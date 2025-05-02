@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using PharmacyManagement.Classes;
 using PharmacyManagement.Data;
 using PharmacyManagement.Entites;
@@ -80,9 +81,10 @@ namespace PharmacyManagement
 
 
 
+                   // var cruntuser = dbContext.Users.Include(u => u.Person).ToList().FirstOrDefault(u => u.Id == clsGlobal.CurrentUser.Id);
 
 
-                    User? cruntuser = dbContext.Users.FirstOrDefault(u => u.UserName == tbUserName.Text.Trim() && u.Password == HashPass);
+                     var cruntuser = dbContext.Users.Include(u => u.Person).FirstOrDefault(u => u.UserName == tbUserName.Text.Trim() && u.Password == HashPass);
 
 
                     if (cruntuser != null)
