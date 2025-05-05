@@ -7,11 +7,23 @@
     <Compile Update="Screen\login\login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Screen\MainScreen\MainForm.cs">
+    <Compile Update="Screen\Administrator\frmAdministrator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Screen\Parmacit\frmPharmacist.cs">
+    <Compile Update="Screen\Pharmacist\frmPharmacist.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Screen\Pharmacist\UC_AddMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Screen\Pharmacist\UC_Dashbord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Screen\Pharmacist\UC_MedicineValidityCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Screen\Pharmacist\UC_ViewMedicine.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Screen\User\frmChangePassword.cs">
       <SubType>Form</SubType>

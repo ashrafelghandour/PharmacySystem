@@ -16,7 +16,9 @@ public partial class AppDbContext : DbContext
     {
     }
 
-    public virtual DbSet<Pepole> Pepole { get; set; }
+    public virtual DbSet<Medicine> Medicines { get; set; }
+
+    public virtual DbSet<Pepole> Pepoles { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
 
@@ -26,6 +28,20 @@ public partial class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Medicine>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Medicine__3214EC27A5DC53D4");
+
+            entity.ToTable("Medicine");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Edate).HasColumnName("EDate");
+            entity.Property(e => e.Image).HasColumnType("image");
+            entity.Property(e => e.MDate).HasColumnName("mDate");
+            entity.Property(e => e.Name).HasMaxLength(50);
+            entity.Property(e => e.PricePerUnit).HasColumnType("decimal(18, 2)");
+        });
+
         modelBuilder.Entity<Pepole>(entity =>
         {
             entity.HasKey(e => e.PersonId).HasName("PK__Pepole__AA2FFB859C929317");

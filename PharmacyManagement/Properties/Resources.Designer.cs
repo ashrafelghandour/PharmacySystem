@@ -83,6 +83,16 @@ namespace PharmacyManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2968946 {
+            get {
+                object obj = ResourceManager.GetObject("2968946", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3 {
             get {
                 object obj = ResourceManager.GetObject("3", resourceCulture);
@@ -103,9 +113,39 @@ namespace PharmacyManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _647237 {
+            get {
+                object obj = ResourceManager.GetObject("647237", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6774908 {
+            get {
+                object obj = ResourceManager.GetObject("6774908", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8563460 {
             get {
                 object obj = ResourceManager.GetObject("8563460", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9151265 {
+            get {
+                object obj = ResourceManager.GetObject("9151265", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,6 +283,16 @@ namespace PharmacyManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MedicineValidation_40px1 {
+            get {
+                object obj = ResourceManager.GetObject("MedicineValidation_40px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap modifyMedicine_32px {
             get {
                 object obj = ResourceManager.GetObject("modifyMedicine_32px", resourceCulture);
@@ -346,6 +396,16 @@ namespace PharmacyManagement.Properties {
         internal static System.Drawing.Bitmap search_25px {
             get {
                 object obj = ResourceManager.GetObject("search_25px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SearchPerson {
+            get {
+                object obj = ResourceManager.GetObject("SearchPerson", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

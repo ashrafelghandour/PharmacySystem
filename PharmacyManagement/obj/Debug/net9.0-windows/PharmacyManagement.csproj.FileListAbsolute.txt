@@ -5,6 +5,7 @@ E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\PharmacyManage
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\PharmacyManagement.pdb
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Azure.Core.dll
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Azure.Identity.dll
+E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Guna.Charts.WinForms.dll
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Guna.UI2.dll
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Humanizer.dll
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
@@ -47,6 +48,11 @@ E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Microsoft.Iden
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Mono.TextTemplating.dll
+E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Syncfusion.Chart.Base.dll
+E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Syncfusion.Chart.Windows.dll
+E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Syncfusion.Grouping.Base.dll
+E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Syncfusion.Licensing.dll
+E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\Syncfusion.Shared.Base.dll
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\System.ClientModel.dll
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\System.Composition.AttributedModel.dll
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\System.Composition.Convention.dll
@@ -132,10 +138,15 @@ E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\runtimes\win\l
 E:\PharmacyManagement\PharmacyManagement\bin\Debug\net9.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.csproj.AssemblyReference.cache
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Properties.Resources.resources
+E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.MainScreen.frmAdministrator.resources
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Administrator.UCDashbord.resources
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.frmLogin.resources
-E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.MainScreen.MainForm.resources
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Parmacit.frmPharmacist.resources
+E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Pharmacist.UC_AddMedicine.resources
+E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Pharmacist.UC_Dashbord.resources
+E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Pharmacist.UC_ViewMedicine.resources
+E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.User.frmChangePassword.resources
+E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.User.llUserProfil.resources
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.User.UC_AddNewUse.resources
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.User.UC_AddUse.resources
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.User.UC_ViewUser.resources
@@ -151,5 +162,4 @@ E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\refint\Pharmac
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.pdb
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.genruntimeconfig.cache
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\ref\PharmacyManagement.dll
-E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.User.frmChangePassword.resources
-E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.User.llUserProfil.resources
+E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Pharmacist.UC_MedicineValidityCheck.resources

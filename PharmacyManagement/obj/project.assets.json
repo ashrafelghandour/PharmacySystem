@@ -47,6 +47,25 @@
           }
         }
       },
+      "Guna.Charts.WinForms/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Management": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0-windows7.0/Guna.Charts.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Guna.Charts.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Guna.UI2.WinForms/2.0.4.7": {
         "type": "package",
         "dependencies": {
@@ -1102,6 +1121,28 @@
           }
         }
       },
+      "Microsoft.WinForms.Designer.SDK/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "4.6.0",
+          "System.Composition": "6.0.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.1/Microsoft.DotNet.DesignTools.Protocol.dll": {
+            "related": ".xml"
+          },
+          "ref/netcoreapp3.1/Microsoft.DotNet.DesignTools.Server.dll": {
+            "related": ".xml"
+          },
+          "ref/netcoreapp3.1/Microsoft.WinForms.Utilities.Shared.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/netcoreapp3.1/Microsoft.WinForms.Designer.SDK.props": {},
+          "build/netcoreapp3.1/Microsoft.WinForms.Designer.SDK.targets": {}
+        }
+      },
       "Mono.TextTemplating/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -1115,6 +1156,85 @@
         },
         "build": {
           "buildTransitive/Mono.TextTemplating.targets": {}
+        }
+      },
+      "Syncfusion.Chart.Base/29.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.40",
+          "Syncfusion.Shared.Base": "29.1.40"
+        },
+        "compile": {
+          "lib/net9.0-windows7.0/Syncfusion.Chart.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/Syncfusion.Chart.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Chart.Windows/29.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Chart.Base": "29.1.40",
+          "Syncfusion.Grouping.Base": "29.1.40",
+          "Syncfusion.Licensing": "29.1.40",
+          "Syncfusion.Shared.Base": "29.1.40"
+        },
+        "compile": {
+          "lib/net9.0-windows7.0/Syncfusion.Chart.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/Syncfusion.Chart.Windows.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Grouping.Base/29.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.40",
+          "Syncfusion.Shared.Base": "29.1.40"
+        },
+        "compile": {
+          "lib/net9.0-windows7.0/Syncfusion.Grouping.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/Syncfusion.Grouping.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/29.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Shared.Base/29.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WinForms.Designer.SDK": "1.6.0",
+          "Syncfusion.Licensing": "29.1.40"
+        },
+        "compile": {
+          "lib/net9.0-windows7.0/Syncfusion.Shared.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/Syncfusion.Shared.Base.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ClientModel/1.0.0": {
@@ -1188,7 +1308,7 @@
       "System.Composition.AttributedModel/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.Composition.AttributedModel.dll": {
             "related": ".xml"
           }
         },
@@ -1207,7 +1327,7 @@
           "System.Composition.AttributedModel": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.Composition.Convention.dll": {
             "related": ".xml"
           }
         },
@@ -1226,7 +1346,7 @@
           "System.Composition.Runtime": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.Composition.Hosting.dll": {
             "related": ".xml"
           }
         },
@@ -1242,7 +1362,7 @@
       "System.Composition.Runtime/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.Composition.Runtime.dll": {
             "related": ".xml"
           }
         },
@@ -1263,7 +1383,7 @@
           "System.Composition.Runtime": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.Composition.TypedParts.dll": {
             "related": ".xml"
           }
         },
@@ -1799,6 +1919,36 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Guna.Charts.WinForms/1.1.0": {
+      "sha512": "qHGw3SusTcgUJFWfB91dQKwMxb0+4YBqPqrsFv7oo6E9Ap1OPsuWLafcJTtOzpxRmf8Umns5++xmcZtgL93q1A==",
+      "type": "package",
+      "path": "guna.charts.winforms/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "guna.charts.winforms.1.1.0.nupkg.sha512",
+        "guna.charts.winforms.nuspec",
+        "icon.png",
+        "lib/net40/Guna.Charts.WinForms.dll",
+        "lib/net40/Guna.Charts.WinForms.xml",
+        "lib/net45/Guna.Charts.WinForms.dll",
+        "lib/net45/Guna.Charts.WinForms.xml",
+        "lib/net461/Guna.Charts.WinForms.dll",
+        "lib/net461/Guna.Charts.WinForms.xml",
+        "lib/net472/Guna.Charts.WinForms.dll",
+        "lib/net472/Guna.Charts.WinForms.xml",
+        "lib/net48/Guna.Charts.WinForms.dll",
+        "lib/net48/Guna.Charts.WinForms.xml",
+        "lib/net6.0-windows7.0/Guna.Charts.WinForms.dll",
+        "lib/net6.0-windows7.0/Guna.Charts.WinForms.xml",
+        "lib/net7.0-windows7.0/Guna.Charts.WinForms.dll",
+        "lib/net7.0-windows7.0/Guna.Charts.WinForms.xml",
+        "lib/netcoreapp3.1/Guna.Charts.WinForms.dll",
+        "lib/netcoreapp3.1/Guna.Charts.WinForms.xml"
       ]
     },
     "Guna.UI2.WinForms/2.0.4.7": {
@@ -3852,6 +4002,34 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.WinForms.Designer.SDK/1.6.0": {
+      "sha512": "BDIY84GbvQ4ensnD1zuZUmWIypl2muqUm4SM9qZ48OmaN8G5dmos38Dt35aEzMy0sN2Ci6UaJPiY1gwmw5eo7A==",
+      "type": "package",
+      "path": "microsoft.winforms.designer.sdk/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PackageLicense.txt",
+        "build/netcoreapp3.1/Microsoft.WinForms.Designer.SDK.props",
+        "build/netcoreapp3.1/Microsoft.WinForms.Designer.SDK.targets",
+        "microsoft.winforms.designer.sdk.1.6.0.nupkg.sha512",
+        "microsoft.winforms.designer.sdk.nuspec",
+        "readme.md",
+        "ref/net472/Microsoft.DotNet.DesignTools.Client.dll",
+        "ref/net472/Microsoft.DotNet.DesignTools.Client.xml",
+        "ref/net472/Microsoft.DotNet.DesignTools.Protocol.dll",
+        "ref/net472/Microsoft.DotNet.DesignTools.Protocol.xml",
+        "ref/net472/Microsoft.WinForms.Utilities.Shared.dll",
+        "ref/net472/Microsoft.WinForms.Utilities.Shared.xml",
+        "ref/netcoreapp3.1/Microsoft.DotNet.DesignTools.Protocol.dll",
+        "ref/netcoreapp3.1/Microsoft.DotNet.DesignTools.Protocol.xml",
+        "ref/netcoreapp3.1/Microsoft.DotNet.DesignTools.Server.dll",
+        "ref/netcoreapp3.1/Microsoft.DotNet.DesignTools.Server.xml",
+        "ref/netcoreapp3.1/Microsoft.WinForms.Utilities.Shared.dll",
+        "ref/netcoreapp3.1/Microsoft.WinForms.Utilities.Shared.xml"
+      ]
+    },
     "Mono.TextTemplating/3.0.0": {
       "sha512": "YqueG52R/Xej4VVbKuRIodjiAhV0HR/XVbLbNrJhCZnzjnSjgMJ/dCdV0akQQxavX6hp/LC6rqLGLcXeQYU7XA==",
       "type": "package",
@@ -3867,6 +4045,123 @@
         "mono.texttemplating.3.0.0.nupkg.sha512",
         "mono.texttemplating.nuspec",
         "readme.md"
+      ]
+    },
+    "Syncfusion.Chart.Base/29.1.40": {
+      "sha512": "as9KF/w0YI1JrLnbiJIJ55oaUhQepWOOTxDWESw2SOVc724lXGsWO5HPpvD/FVcn8KjoxzKbIb8OdxaHsYAVIA==",
+      "type": "package",
+      "path": "syncfusion.chart.base/29.1.40",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net462/Syncfusion.Chart.Base.dll",
+        "lib/net462/Syncfusion.Chart.Base.xml",
+        "lib/net8.0-windows7.0/Syncfusion.Chart.Base.dll",
+        "lib/net8.0-windows7.0/Syncfusion.Chart.Base.xml",
+        "lib/net9.0-windows7.0/Syncfusion.Chart.Base.dll",
+        "lib/net9.0-windows7.0/Syncfusion.Chart.Base.xml",
+        "syncfusion.chart.base.29.1.40.nupkg.sha512",
+        "syncfusion.chart.base.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Chart.Windows/29.1.40": {
+      "sha512": "+7fOePXOct9dRej3xIkoN95/iimWLaWluNINLr+cFyWl4jRt61UTtJI3UnOPqwdGV/c9svtJfg5tyFAEcPFXIQ==",
+      "type": "package",
+      "path": "syncfusion.chart.windows/29.1.40",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net462/Syncfusion.Chart.Windows.dll",
+        "lib/net462/Syncfusion.Chart.Windows.xml",
+        "lib/net8.0-windows7.0/Design/WinForms/Server/Syncfusion.Chart.Windows.Server.dll",
+        "lib/net8.0-windows7.0/Design/WinForms/Syncfusion.Chart.Windows.Client.dll",
+        "lib/net8.0-windows7.0/Syncfusion.Chart.Windows.dll",
+        "lib/net8.0-windows7.0/Syncfusion.Chart.Windows.xml",
+        "lib/net9.0-windows7.0/Design/WinForms/Server/Syncfusion.Chart.Windows.Server.dll",
+        "lib/net9.0-windows7.0/Design/WinForms/Syncfusion.Chart.Windows.Client.dll",
+        "lib/net9.0-windows7.0/Syncfusion.Chart.Windows.dll",
+        "lib/net9.0-windows7.0/Syncfusion.Chart.Windows.xml",
+        "syncfusion.chart.windows.29.1.40.nupkg.sha512",
+        "syncfusion.chart.windows.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Grouping.Base/29.1.40": {
+      "sha512": "j2hxqYW48dGgKFhTImdJZxCcD+Th0z/re3BWLKFcoiNLtRa1yN+bhTNseCCISi6F6szfJsDVLHIlsAGOkh+6Jw==",
+      "type": "package",
+      "path": "syncfusion.grouping.base/29.1.40",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net462/Syncfusion.Grouping.Base.dll",
+        "lib/net462/Syncfusion.Grouping.Base.xml",
+        "lib/net8.0-windows7.0/Design/WinForms/Server/Syncfusion.Grouping.Base.Server.dll",
+        "lib/net8.0-windows7.0/Design/WinForms/Syncfusion.Grouping.Base.Client.dll",
+        "lib/net8.0-windows7.0/Syncfusion.Grouping.Base.dll",
+        "lib/net8.0-windows7.0/Syncfusion.Grouping.Base.xml",
+        "lib/net9.0-windows7.0/Design/WinForms/Server/Syncfusion.Grouping.Base.Server.dll",
+        "lib/net9.0-windows7.0/Design/WinForms/Syncfusion.Grouping.Base.Client.dll",
+        "lib/net9.0-windows7.0/Syncfusion.Grouping.Base.dll",
+        "lib/net9.0-windows7.0/Syncfusion.Grouping.Base.xml",
+        "syncfusion.grouping.base.29.1.40.nupkg.sha512",
+        "syncfusion.grouping.base.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Licensing/29.1.40": {
+      "sha512": "nt2AogC2Zui0fJMrHa7CPzYPapebPVIP/9hN2/fjT/665Z4MgM3//mX8pPzXAKIuKQW0TcK+rfBrCG+EhLMEiw==",
+      "type": "package",
+      "path": "syncfusion.licensing/29.1.40",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net462/Syncfusion.Licensing.dll",
+        "lib/net8.0/Syncfusion.Licensing.dll",
+        "lib/net9.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.29.1.40.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Shared.Base/29.1.40": {
+      "sha512": "Bz91xb9FM3tNuZMBgn/odeLTbp3azQ8v+H+Hl/46Cr03+9UX1jD6dJ0SAg4mBBVseVnBCfYKt+lpXJCjkgytOQ==",
+      "type": "package",
+      "path": "syncfusion.shared.base/29.1.40",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net462/Syncfusion.Shared.Base.dll",
+        "lib/net462/Syncfusion.Shared.Base.xml",
+        "lib/net8.0-windows7.0/Design/WinForms/Server/Syncfusion.Shared.Base.Server.dll",
+        "lib/net8.0-windows7.0/Design/WinForms/Syncfusion.Shared.Base.Client.dll",
+        "lib/net8.0-windows7.0/Syncfusion.Shared.Base.dll",
+        "lib/net8.0-windows7.0/Syncfusion.Shared.Base.xml",
+        "lib/net9.0-windows7.0/Design/WinForms/Server/Syncfusion.Shared.Base.Server.dll",
+        "lib/net9.0-windows7.0/Design/WinForms/Syncfusion.Shared.Base.Client.dll",
+        "lib/net9.0-windows7.0/Syncfusion.Shared.Base.dll",
+        "lib/net9.0-windows7.0/Syncfusion.Shared.Base.xml",
+        "syncfusion.shared.base.29.1.40.nupkg.sha512",
+        "syncfusion.shared.base.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
       ]
     },
     "System.ClientModel/1.0.0": {
@@ -5090,12 +5385,14 @@
   },
   "projectFileDependencyGroups": {
     "net9.0-windows7.0": [
+      "Guna.Charts.WinForms >= 1.1.0",
       "Guna.UI2.WinForms >= 2.0.4.7",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.4",
       "Microsoft.Extensions.Configuration >= 9.0.4",
-      "Microsoft.Extensions.Configuration.Json >= 9.0.4"
+      "Microsoft.Extensions.Configuration.Json >= 9.0.4",
+      "Syncfusion.Chart.Windows >= 29.1.40"
     ]
   },
   "packageFolders": {
@@ -5148,6 +5445,10 @@
       "net9.0-windows7.0": {
         "targetAlias": "net9.0-windows",
         "dependencies": {
+          "Guna.Charts.WinForms": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
           "Guna.UI2.WinForms": {
             "target": "Package",
             "version": "[2.0.4.7, )"
@@ -5175,6 +5476,10 @@
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[9.0.4, )"
+          },
+          "Syncfusion.Chart.Windows": {
+            "target": "Package",
+            "version": "[29.1.40, )"
           }
         },
         "imports": [

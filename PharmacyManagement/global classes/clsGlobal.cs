@@ -13,9 +13,9 @@ namespace PharmacyManagement.Classes
 {
     internal static class clsGlobal
     {
-        // public static clsUser CurrentUser;
+        public static Medicine?  Medicine = null!;
 
-        public static User CurrentUser;
+        public static User CurrentUser = null!;
 
         public static bool RememberUsernameAndPassword(string Username, string Password)
         {
@@ -101,7 +101,7 @@ namespace PharmacyManagement.Classes
                     {
                         // Read data line by line until the end of the file
                         string line;
-                        while ((line = reader.ReadLine()) != null)
+                        while ((line = reader.ReadLine()!) != null)
                         {
                             Console.WriteLine(line); // Output each line of data to the console
                             string[] result = line.Split(new string[] { "#//#" }, StringSplitOptions.None);

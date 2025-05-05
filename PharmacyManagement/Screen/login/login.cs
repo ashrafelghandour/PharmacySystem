@@ -117,7 +117,7 @@ namespace PharmacyManagement
                         {
 
                             this.Hide();
-                            MainForm mainForm = new MainForm();
+                            frmAdministrator mainForm = new frmAdministrator();
                             mainForm.ShowDialog();
                             this.Close();
 

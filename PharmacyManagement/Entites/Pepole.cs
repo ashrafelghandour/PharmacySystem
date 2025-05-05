@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace PharmacyManagement.Entites;
 
@@ -17,5 +16,6 @@ public partial class Pepole
     public string Email { get; set; } = null!;
 
     public byte[]? Image { get; set; }
+
     public virtual ICollection<User> Users { get; set; } = new List<User>();
 }
