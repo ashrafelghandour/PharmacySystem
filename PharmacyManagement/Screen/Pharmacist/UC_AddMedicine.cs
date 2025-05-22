@@ -89,7 +89,7 @@ namespace PharmacyManagement.Screen.Pharmacist
             tbMedicineName.Clear();
             tbMedicineID.Clear();
 
-            pbImage.Image = Resources.admin3;
+            pbImage.Image = Resources._2968946;
 
             llRemoveImage.Visible = false;
 
@@ -383,11 +383,7 @@ namespace PharmacyManagement.Screen.Pharmacist
             }
 
 
-            else if (string.IsNullOrEmpty(tbsearch.Text.Trim()))
-            {
-                e.Cancel = true;
-                return;
-            }
+          
             else
             {
                 e.Cancel = false;

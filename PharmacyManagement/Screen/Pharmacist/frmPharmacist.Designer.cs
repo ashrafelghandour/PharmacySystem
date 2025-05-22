@@ -38,9 +38,9 @@ namespace PharmacyManagement.Screen.Parmacit
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPharmacist));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPharmacist));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -48,7 +48,10 @@ namespace PharmacyManagement.Screen.Parmacit
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new Panel();
+            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -62,12 +65,11 @@ namespace PharmacyManagement.Screen.Parmacit
             lbUsername = new Label();
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
+            uC_Sell_Medicine1 = new Pharmacist.UC_Sell_Medicine();
             uC_MedicineValidityCheck1 = new Pharmacist.UC_MedicineValidityCheck();
             uC_AddMedicine3 = new Pharmacist.UC_AddMedicine(clsGlobal.Medicine);
-            uC_AddMedicine2 = new Pharmacist.UC_AddMedicine(clsGlobal.Medicine);
-            uC_AddNewUse1 = new User.UC_AddNewUse(clsGlobal.CurrentUser);
-            uC_ViewMedicine1 = new Pharmacist.UC_ViewMedicine();
-            uC_AddMedicine1 = new Pharmacist.UC_AddMedicine();
+            uC_AddMedicine2 = new Pharmacist.UC_AddMedicine(clsGlobal.Medicine); uC_ViewMedicine1 = new Pharmacist.UC_ViewMedicine();
+                  uC_AddNewUse1 = new User.UC_AddNewUse(clsGlobal.CurrentUser); uC_AddMedicine1 = new Pharmacist.UC_AddMedicine();
             uC_Dashbord1 = new Pharmacist.UC_Dashbord();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(components);
@@ -81,6 +83,7 @@ namespace PharmacyManagement.Screen.Parmacit
             // panel1
             // 
             panel1.BackColor = Color.Indigo;
+            panel1.Controls.Add(guna2Button3);
             panel1.Controls.Add(guna2Button2);
             panel1.Controls.Add(guna2Button1);
             panel1.Controls.Add(guna2CustomGradientPanel1);
@@ -98,12 +101,35 @@ namespace PharmacyManagement.Screen.Parmacit
             panel1.Size = new Size(343, 1053);
             panel1.TabIndex = 3;
             // 
+            // guna2Button3
+            // 
+            guna2Button3.BorderRadius = 15;
+            guna2Button3.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            guna2Button3.CustomizableEdges = customizableEdges1;
+            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button3.FillColor = Color.Indigo;
+            guna2Button3.Font = new Font("Segoe UI", 9F);
+            guna2Button3.ForeColor = Color.Black;
+            guna2Button3.Image = Properties.Resources.sellMedicine_64px;
+            guna2Button3.ImageSize = new Size(25, 25);
+            guna2Button3.Location = new Point(49, 797);
+            guna2Button3.Name = "guna2Button3";
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2Button3.Size = new Size(188, 45);
+            guna2Button3.TabIndex = 59;
+            guna2Button3.Text = "Sell Medicine";
+            guna2Button3.Click += guna2Button3_Click_1;
+            // 
             // guna2Button2
             // 
             guna2Button2.BorderRadius = 15;
             guna2Button2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            guna2Button2.CustomizableEdges = customizableEdges1;
+            guna2Button2.CustomizableEdges = customizableEdges3;
             guna2Button2.DisabledState.BorderColor = Color.DarkGray;
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -113,9 +139,9 @@ namespace PharmacyManagement.Screen.Parmacit
             guna2Button2.ForeColor = Color.Black;
             guna2Button2.Image = Properties.Resources.MedicineValidation_40px;
             guna2Button2.ImageSize = new Size(25, 25);
-            guna2Button2.Location = new Point(49, 775);
+            guna2Button2.Location = new Point(49, 733);
             guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2Button2.Size = new Size(188, 45);
             guna2Button2.TabIndex = 58;
             guna2Button2.Text = "Medicine Validity Check";
@@ -126,7 +152,7 @@ namespace PharmacyManagement.Screen.Parmacit
             guna2Button1.BorderRadius = 15;
             guna2Button1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            guna2Button1.CustomizableEdges = customizableEdges3;
+            guna2Button1.CustomizableEdges = customizableEdges5;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -136,9 +162,9 @@ namespace PharmacyManagement.Screen.Parmacit
             guna2Button1.ForeColor = Color.Black;
             guna2Button1.Image = Properties.Resources._9151265;
             guna2Button1.ImageSize = new Size(25, 25);
-            guna2Button1.Location = new Point(49, 702);
+            guna2Button1.Location = new Point(49, 660);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Button1.Size = new Size(188, 45);
             guna2Button1.TabIndex = 57;
             guna2Button1.Text = "Modify Medicine";
@@ -146,10 +172,10 @@ namespace PharmacyManagement.Screen.Parmacit
             // 
             // guna2CustomGradientPanel1
             // 
-            guna2CustomGradientPanel1.CustomizableEdges = customizableEdges5;
+            guna2CustomGradientPanel1.CustomizableEdges = customizableEdges7;
             guna2CustomGradientPanel1.Location = new Point(342, 3);
             guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2CustomGradientPanel1.Size = new Size(956, 1043);
             guna2CustomGradientPanel1.TabIndex = 4;
             // 
@@ -169,7 +195,7 @@ namespace PharmacyManagement.Screen.Parmacit
             btsginout.BorderRadius = 15;
             btsginout.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             btsginout.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btsginout.CustomizableEdges = customizableEdges7;
+            btsginout.CustomizableEdges = customizableEdges9;
             btsginout.DisabledState.BorderColor = Color.DarkGray;
             btsginout.DisabledState.CustomBorderColor = Color.DarkGray;
             btsginout.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -181,7 +207,7 @@ namespace PharmacyManagement.Screen.Parmacit
             btsginout.ImageSize = new Size(25, 25);
             btsginout.Location = new Point(49, 914);
             btsginout.Name = "btsginout";
-            btsginout.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            btsginout.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btsginout.Size = new Size(188, 45);
             btsginout.TabIndex = 55;
             btsginout.Text = "Sing out";
@@ -192,7 +218,7 @@ namespace PharmacyManagement.Screen.Parmacit
             btProfile.BorderRadius = 15;
             btProfile.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             btProfile.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btProfile.CustomizableEdges = customizableEdges9;
+            btProfile.CustomizableEdges = customizableEdges11;
             btProfile.DisabledState.BorderColor = Color.DarkGray;
             btProfile.DisabledState.CustomBorderColor = Color.DarkGray;
             btProfile.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -204,7 +230,7 @@ namespace PharmacyManagement.Screen.Parmacit
             btProfile.ImageSize = new Size(25, 25);
             btProfile.Location = new Point(49, 848);
             btProfile.Name = "btProfile";
-            btProfile.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btProfile.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btProfile.Size = new Size(188, 45);
             btProfile.TabIndex = 54;
             btProfile.Text = "Profile";
@@ -227,7 +253,7 @@ namespace PharmacyManagement.Screen.Parmacit
             btViewUser.BorderRadius = 15;
             btViewUser.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             btViewUser.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btViewUser.CustomizableEdges = customizableEdges11;
+            btViewUser.CustomizableEdges = customizableEdges13;
             btViewUser.DisabledState.BorderColor = Color.DarkGray;
             btViewUser.DisabledState.CustomBorderColor = Color.DarkGray;
             btViewUser.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -237,9 +263,9 @@ namespace PharmacyManagement.Screen.Parmacit
             btViewUser.ForeColor = Color.Black;
             btViewUser.Image = Properties.Resources._6774908;
             btViewUser.ImageSize = new Size(25, 25);
-            btViewUser.Location = new Point(49, 637);
+            btViewUser.Location = new Point(49, 595);
             btViewUser.Name = "btViewUser";
-            btViewUser.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            btViewUser.ShadowDecoration.CustomizableEdges = customizableEdges14;
             btViewUser.Size = new Size(188, 45);
             btViewUser.TabIndex = 53;
             btViewUser.Text = "View Medicines";
@@ -250,7 +276,7 @@ namespace PharmacyManagement.Screen.Parmacit
             btAddUser.BorderRadius = 15;
             btAddUser.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             btAddUser.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btAddUser.CustomizableEdges = customizableEdges13;
+            btAddUser.CustomizableEdges = customizableEdges15;
             btAddUser.DisabledState.BorderColor = Color.DarkGray;
             btAddUser.DisabledState.CustomBorderColor = Color.DarkGray;
             btAddUser.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -260,9 +286,9 @@ namespace PharmacyManagement.Screen.Parmacit
             btAddUser.ForeColor = Color.Black;
             btAddUser.Image = Properties.Resources._2968946;
             btAddUser.ImageSize = new Size(25, 25);
-            btAddUser.Location = new Point(49, 570);
+            btAddUser.Location = new Point(49, 528);
             btAddUser.Name = "btAddUser";
-            btAddUser.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btAddUser.ShadowDecoration.CustomizableEdges = customizableEdges16;
             btAddUser.Size = new Size(188, 45);
             btAddUser.TabIndex = 52;
             btAddUser.Text = "Add Medicine";
@@ -274,7 +300,7 @@ namespace PharmacyManagement.Screen.Parmacit
             btDashbord.BorderRadius = 15;
             btDashbord.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             btDashbord.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btDashbord.CustomizableEdges = customizableEdges15;
+            btDashbord.CustomizableEdges = customizableEdges17;
             btDashbord.DisabledState.BorderColor = Color.DarkGray;
             btDashbord.DisabledState.CustomBorderColor = Color.DarkGray;
             btDashbord.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -284,9 +310,9 @@ namespace PharmacyManagement.Screen.Parmacit
             btDashbord.ForeColor = Color.Black;
             btDashbord.Image = (Image)resources.GetObject("btDashbord.Image");
             btDashbord.ImageSize = new Size(25, 25);
-            btDashbord.Location = new Point(49, 506);
+            btDashbord.Location = new Point(49, 464);
             btDashbord.Name = "btDashbord";
-            btDashbord.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btDashbord.ShadowDecoration.CustomizableEdges = customizableEdges18;
             btDashbord.Size = new Size(188, 45);
             btDashbord.TabIndex = 51;
             btDashbord.Text = "Dashbord";
@@ -315,6 +341,7 @@ namespace PharmacyManagement.Screen.Parmacit
             // 
             // panel2
             // 
+            panel2.Controls.Add(uC_Sell_Medicine1);
             panel2.Controls.Add(uC_MedicineValidityCheck1);
             panel2.Controls.Add(uC_AddMedicine3);
             panel2.Controls.Add(uC_AddMedicine2);
@@ -325,6 +352,15 @@ namespace PharmacyManagement.Screen.Parmacit
             panel2.Name = "panel2";
             panel2.Size = new Size(946, 1040);
             panel2.TabIndex = 4;
+            // 
+            // uC_Sell_Medicine1
+            // 
+            uC_Sell_Medicine1.BackColor = SystemColors.ScrollBar;
+            uC_Sell_Medicine1.Location = new Point(0, -1);
+            uC_Sell_Medicine1.Name = "uC_Sell_Medicine1";
+            uC_Sell_Medicine1.Size = new Size(882, 1133);
+            uC_Sell_Medicine1.TabIndex = 5;
+            uC_Sell_Medicine1.Load += uC_Sell_Medicine1_Load;
             // 
             // uC_MedicineValidityCheck1
             // 
@@ -432,5 +468,7 @@ namespace PharmacyManagement.Screen.Parmacit
         private User.UC_AddNewUse uC_AddNewUse1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Pharmacist.UC_MedicineValidityCheck uC_MedicineValidityCheck1;
+        private Pharmacist.UC_Sell_Medicine uC_Sell_Medicine1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
     }
 }

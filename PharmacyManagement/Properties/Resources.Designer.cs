@@ -163,6 +163,16 @@ namespace PharmacyManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_to_cart_40px1 {
+            get {
+                object obj = ResourceManager.GetObject("add_to_cart_40px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap addMedic_48px {
             get {
                 object obj = ResourceManager.GetObject("addMedic_48px", resourceCulture);
@@ -343,6 +353,16 @@ namespace PharmacyManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap purchase_40px1 {
+            get {
+                object obj = ResourceManager.GetObject("purchase_40px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap remove_25px {
             get {
                 object obj = ResourceManager.GetObject("remove_25px", resourceCulture);
@@ -356,6 +376,16 @@ namespace PharmacyManagement.Properties {
         internal static System.Drawing.Bitmap remove_64px {
             get {
                 object obj = ResourceManager.GetObject("remove_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap remove_64px1 {
+            get {
+                object obj = ResourceManager.GetObject("remove_64px1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -416,6 +446,16 @@ namespace PharmacyManagement.Properties {
         internal static System.Drawing.Bitmap sellMedicine_64px {
             get {
                 object obj = ResourceManager.GetObject("sellMedicine_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sellMedicine_64px1 {
+            get {
+                object obj = ResourceManager.GetObject("sellMedicine_64px1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

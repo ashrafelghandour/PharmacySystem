@@ -22,6 +22,9 @@
     <Compile Update="Screen\Pharmacist\UC_MedicineValidityCheck.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Screen\Pharmacist\UC_Sell_Medicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Screen\Pharmacist\UC_ViewMedicine.cs">
       <SubType>UserControl</SubType>
     </Compile>

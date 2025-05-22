@@ -14,9 +14,9 @@ using PharmacyManagement.Screen.User;
 
 namespace PharmacyManagement.Screen.Parmacit
 {
-     //uC_AddMedicine3 = new Pharmacist.UC_AddMedicine(clsGlobal.Medicine);
-     //       uC_AddMedicine2 = new Pharmacist.UC_AddMedicine(clsGlobal.Medicine);
-     //       uC_AddNewUse1 = new User.UC_AddNewUse(clsGlobal.CurrentUser);
+    //uC_AddMedicine3 = new Pharmacist.UC_AddMedicine(clsGlobal.Medicine);
+    //       uC_AddMedicine2 = new Pharmacist.UC_AddMedicine(clsGlobal.Medicine);
+    //       uC_AddNewUse1 = new User.UC_AddNewUse(clsGlobal.CurrentUser);
     public partial class frmPharmacist : Form
     {
         public frmPharmacist()
@@ -42,9 +42,10 @@ namespace PharmacyManagement.Screen.Parmacit
             uC_AddMedicine1.Visible = false;
             uC_ViewMedicine1.Visible = false;
             uC_AddNewUse1.Visible = false;
+            uC_Sell_Medicine1.Visible = false;
             uC_AddMedicine2.Visible = false;
             uC_AddMedicine3.Visible = false;
-             uC_MedicineValidityCheck1.Visible = false;
+            uC_MedicineValidityCheck1.Visible = false;
 
 
         }
@@ -134,11 +135,28 @@ namespace PharmacyManagement.Screen.Parmacit
             uC_AddMedicine3.BringToFront();
         }
 
-       
+
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
-               uC_MedicineValidityCheck1.Visible = true;
-             uC_MedicineValidityCheck1.BringToFront();
+            uC_MedicineValidityCheck1.Visible = true;
+            uC_MedicineValidityCheck1.BringToFront();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            //    
+            //
+        }
+
+        private void guna2Button3_Click_1(object sender, EventArgs e)
+        {
+            uC_Sell_Medicine1.Visible = true;
+            uC_Sell_Medicine1.BringToFront();
+        }
+
+        private void uC_Sell_Medicine1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

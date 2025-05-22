@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\PharmacyManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\pharmacist\\uc_medicinevaliditycheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\uc_medicinevaliditycheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\pharmacist\\uc_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\uc_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|E:\\PharmacyManagement\\pharmacymanagement\\screen\\pharmacist\\uc_medicinevaliditycheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\uc_medicinevaliditycheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\pharmacist\\uc_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\uc_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\pharmacist\\frmpharmacist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\frmpharmacist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\pharmacist\\frmpharmacist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,104 +15,8 @@
       "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\frmpharmacist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\administrator\\frmadministrator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\administrator\\frmadministrator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\administrator\\ucdashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\administrator\\ucdashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\administrator\\ucdashbord.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\administrator\\ucdashbord.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\administrator\\frmadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\administrator\\frmadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\pharmacist\\uc_addmedicine.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\uc_addmedicine.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\pharmacist\\uc_addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\uc_addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|E:\\PharmacyManagement\\pharmacymanagement\\screen\\pharmacist\\uc_addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\uc_addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\global classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\global classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\user\\frmuserprofil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\user\\frmuserprofil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|E:\\PharmacyManagement\\pharmacymanagement\\screen\\user\\uc_addnewuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\user\\uc_addnewuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\user\\uc_addnewuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\user\\uc_addnewuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|E:\\PharmacyManagement\\pharmacymanagement\\screen\\user\\frmuserprofil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\user\\frmuserprofil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|E:\\PharmacyManagement\\pharmacymanagement\\screen\\user\\uc_viewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\user\\uc_viewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|E:\\PharmacyManagement\\pharmacymanagement\\screen\\administrator\\frmadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\administrator\\frmadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\pharmacist\\uc_viewmedicine.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\uc_viewmedicine.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\user\\uc_viewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\user\\uc_viewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|E:\\PharmacyManagement\\pharmacymanagement\\screen\\pharmacist\\uc_dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\uc_dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\pharmacist\\uc_dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\pharmacist\\uc_dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|E:\\PharmacyManagement\\pharmacymanagement\\screen\\user\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\user\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|e:\\pharmacymanagement\\pharmacymanagement\\screen\\user\\uc_viewuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFC0B0AE-A9C8-44CE-AB63-CE825BB25E17}|PharmacyManagement\\PharmacyManagement.csproj|solutionrelative:pharmacymanagement\\screen\\user\\uc_viewuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PharmacyManagement\\PharmacyManagement\\Screen\\MainScreen\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PharmacyManagement\\Screen\\MainScreen\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PharmacyManagement\\PharmacyManagement\\Screen\\MainScreen\\MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PharmacyManagement\\Screen\\MainScreen\\MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PharmacyManagement\\pharmacymanagement\\screen\\parmacit\\frmpharmacist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pharmacymanagement\\screen\\parmacit\\frmpharmacist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\pharmacymanagement\\pharmacymanagement\\screen\\mainscreen\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pharmacymanagement\\screen\\mainscreen\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,384 +26,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UC_MedicineValidityCheck.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_MedicineValidityCheck.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\UC_MedicineValidityCheck.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_MedicineValidityCheck.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\UC_MedicineValidityCheck.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDwAAAA5AAAAAAAAAA==",
+              "Title": "frmPharmacist.Designer.cs",
+              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.Designer.cs",
+              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.Designer.cs",
+              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.Designer.cs",
+              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.Designer.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowEUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:26:44.288Z",
+              "WhenOpened": "2025-05-22T22:10:15.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UC_ViewMedicine.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.cs [Design]",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:24:19.553Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UC_MedicineValidityCheck.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_MedicineValidityCheck.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\UC_MedicineValidityCheck.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_MedicineValidityCheck.cs [Design]",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\UC_MedicineValidityCheck.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T21:20:23.106Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "frmPharmacist.cs",
               "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.cs",
               "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.cs",
               "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.cs",
               "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAEwJ4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:43:41.048Z",
+              "WhenOpened": "2025-05-22T22:03:31.039Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UCDashbord.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Administrator\\UCDashbord.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Administrator\\UCDashbord.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Administrator\\UCDashbord.cs [Design]",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Administrator\\UCDashbord.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:16:07.611Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UC_ViewMedicine.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAtwGYAAAANAAAAAAAAAA==",
+              "Title": "UC_AddMedicine.cs [Design]",
+              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs",
+              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs",
+              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs [Design]",
+              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T20:51:23.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T22:01:46.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmAdministrator.Designer.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Administrator\\frmAdministrator.Designer.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Administrator\\frmAdministrator.Designer.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Administrator\\frmAdministrator.Designer.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Administrator\\frmAdministrator.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:16:04.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "frmPharmacist.cs [Design]",
               "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.cs",
               "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.cs",
               "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.cs [Design]",
               "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\frmPharmacist.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:23:14.362Z",
+              "WhenOpened": "2025-05-22T22:00:57.114Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UCDashbord.Designer.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Administrator\\UCDashbord.Designer.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Administrator\\UCDashbord.Designer.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Administrator\\UCDashbord.Designer.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Administrator\\UCDashbord.Designer.cs",
-              "ViewState": "AgIAAAEAAADA//////8hwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:16:07.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmAdministrator.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Administrator\\frmAdministrator.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Administrator\\frmAdministrator.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Administrator\\frmAdministrator.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Administrator\\frmAdministrator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:44:46.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UC_AddMedicine.Designer.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.Designer.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.Designer.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.Designer.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.Designer.cs",
-              "ViewState": "AgIAACkBAAAAAAAAAAAtwD4BAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T13:57:47.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "clsGlobal.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\global classes\\clsGlobal.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\global classes\\clsGlobal.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\global classes\\clsGlobal.cs",
-              "RelativeToolTip": "PharmacyManagement\\global classes\\clsGlobal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:33:40.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UC_AddMedicine.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs",
-              "ViewState": "AgIAAOoAAAAAAAAAAAAtwPoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:13:45.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UC_AddMedicine.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs [Design]*",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\UC_AddMedicine.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T20:45:01.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "frmUserProfil.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\frmUserProfil.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\User\\frmUserProfil.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\frmUserProfil.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\User\\frmUserProfil.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAEwDUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T20:51:58.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "login.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\login\\login.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\login\\login.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\login\\login.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\login\\login.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAuwG0AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T21:52:07.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UC_AddNewUse.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\UC_AddNewUse.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\User\\UC_AddNewUse.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\UC_AddNewUse.cs [Design]",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\User\\UC_AddNewUse.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T20:21:19.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "frmUserProfil.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\frmUserProfil.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\User\\frmUserProfil.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\frmUserProfil.cs [Design]",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\User\\frmUserProfil.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T20:45:58.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UC_AddNewUse.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\UC_AddNewUse.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\User\\UC_AddNewUse.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\UC_AddNewUse.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\User\\UC_AddNewUse.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAlwJIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T21:00:14.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UC_ViewUser.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\UC_ViewUser.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\User\\UC_ViewUser.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\UC_ViewUser.cs [Design]",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\User\\UC_ViewUser.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T22:41:31.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "frmAdministrator.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Administrator\\frmAdministrator.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Administrator\\frmAdministrator.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Administrator\\frmAdministrator.cs [Design]",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Administrator\\frmAdministrator.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:44:41.349Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UC_Dashbord.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_Dashbord.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\UC_Dashbord.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_Dashbord.cs [Design]",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\UC_Dashbord.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T20:36:32.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UC_ViewMedicine.Designer.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.Designer.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.Designer.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.Designer.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\UC_ViewMedicine.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAYwBYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T20:56:32.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UC_ViewUser.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\UC_ViewUser.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\User\\UC_ViewUser.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\UC_ViewUser.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\User\\UC_ViewUser.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAtwI0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T22:41:33.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UC_Dashbord.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_Dashbord.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Pharmacist\\UC_Dashbord.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Pharmacist\\UC_Dashbord.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Pharmacist\\UC_Dashbord.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAEwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T22:11:15.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "frmChangePassword.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\frmChangePassword.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\User\\frmChangePassword.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\frmChangePassword.cs [Design]",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\User\\frmChangePassword.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T22:49:27.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\MainScreen\\MainForm.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\MainScreen\\MainForm.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\MainScreen\\MainForm.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\MainScreen\\MainForm.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T20:44:14.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UC_ViewUser.Designer.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\UC_ViewUser.Designer.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\User\\UC_ViewUser.Designer.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\User\\UC_ViewUser.Designer.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\User\\UC_ViewUser.Designer.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAawAABAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T20:22:29.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\MainScreen\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\MainScreen\\MainForm.Designer.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\MainScreen\\MainForm.Designer.cs",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\MainScreen\\MainForm.Designer.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAcwDoAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T22:19:51.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "frmPharmacist.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Parmacit\\frmPharmacist.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\Parmacit\\frmPharmacist.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\Parmacit\\frmPharmacist.cs [Design]",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\Parmacit\\frmPharmacist.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T21:54:07.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\MainScreen\\MainForm.cs",
-              "RelativeDocumentMoniker": "PharmacyManagement\\Screen\\MainScreen\\MainForm.cs",
-              "ToolTip": "E:\\PharmacyManagement\\PharmacyManagement\\Screen\\MainScreen\\MainForm.cs [Design]",
-              "RelativeToolTip": "PharmacyManagement\\Screen\\MainScreen\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T20:40:48.327Z"
             }
           ]
         }

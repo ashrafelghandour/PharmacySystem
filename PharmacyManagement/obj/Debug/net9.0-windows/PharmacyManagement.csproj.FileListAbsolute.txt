@@ -144,6 +144,8 @@ E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManage
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Parmacit.frmPharmacist.resources
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Pharmacist.UC_AddMedicine.resources
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Pharmacist.UC_Dashbord.resources
+E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Pharmacist.UC_MedicineValidityCheck.resources
+E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Pharmacist.UC_Sell_Medicine.resources
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Pharmacist.UC_ViewMedicine.resources
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.User.frmChangePassword.resources
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.User.llUserProfil.resources
@@ -162,4 +164,3 @@ E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\refint\Pharmac
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.pdb
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.genruntimeconfig.cache
 E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\ref\PharmacyManagement.dll
-E:\PharmacyManagement\PharmacyManagement\obj\Debug\net9.0-windows\PharmacyManagement.Screen.Pharmacist.UC_MedicineValidityCheck.resources
