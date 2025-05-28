@@ -38,19 +38,19 @@ namespace PharmacyManagement.Screen.Pharmacist
 
                     switch (CBCheck.SelectedIndex)
                     {
-                        
+
 
 
                         case 0:
 
                             DGVlist.DataSource = db.Medicines.Where(m => m.Edate >= DateOnly.FromDateTime(DateTime.Now)).ToList();
-                        lbSet.Text = "Valid Medicine";
-                           lbSet.ForeColor = Color.Black;
+                            lbSet.Text = "Valid Medicine";
+                            lbSet.ForeColor = Color.Black;
                             break;
                         case 1:
 
                             DGVlist.DataSource = db.Medicines.Where(m => m.Edate < DateOnly.FromDateTime(DateTime.Now)).ToList();
-                             lbSet.Text = "Expired Medicine";
+                            lbSet.Text = "Expired Medicine";
                             lbSet.ForeColor = Color.Red;
 
                             break;
@@ -115,6 +115,11 @@ namespace PharmacyManagement.Screen.Pharmacist
                 MessageBox.Show("Error: Data Is not Deleted Successfully.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
+        }
+
+        private void DGVlist_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

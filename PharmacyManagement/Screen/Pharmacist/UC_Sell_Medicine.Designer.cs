@@ -29,40 +29,40 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             btReset = new Guna.UI2.WinForms.Guna2Button();
             pictureBox1 = new PictureBox();
             DA = new Label();
             tbsearch = new Guna.UI2.WinForms.Guna2TextBox();
             label2 = new Label();
-            listBox1 = new ListBox();
+            ListBoxMedcine = new ListBox();
             label7 = new Label();
             DTBExpierDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
             tbMedicineID = new Guna.UI2.WinForms.Guna2TextBox();
@@ -80,9 +80,16 @@
             label1 = new Label();
             tbtotalprice = new Guna.UI2.WinForms.Guna2TextBox();
             guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
+            Column6 = new DataGridViewTextBoxColumn();
             btremove = new Guna.UI2.WinForms.Guna2Button();
-            label5 = new Label();
+            lltotal = new Label();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            btaddcart = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
@@ -93,7 +100,7 @@
             btReset.BackColor = Color.Transparent;
             btReset.BorderColor = Color.Transparent;
             btReset.Cursor = Cursors.Hand;
-            btReset.CustomizableEdges = customizableEdges26;
+            btReset.CustomizableEdges = customizableEdges1;
             btReset.DisabledState.BorderColor = Color.DarkGray;
             btReset.DisabledState.CustomBorderColor = Color.DarkGray;
             btReset.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -107,9 +114,10 @@
             btReset.Location = new Point(224, 24);
             btReset.Name = "btReset";
             btReset.PressedColor = Color.White;
-            btReset.ShadowDecoration.CustomizableEdges = customizableEdges27;
+            btReset.ShadowDecoration.CustomizableEdges = customizableEdges2;
             btReset.Size = new Size(30, 36);
             btReset.TabIndex = 15;
+            btReset.Click += btReset_Click;
             // 
             // pictureBox1
             // 
@@ -134,7 +142,7 @@
             // 
             // tbsearch
             // 
-            tbsearch.CustomizableEdges = customizableEdges28;
+            tbsearch.CustomizableEdges = customizableEdges3;
             tbsearch.DefaultText = "";
             tbsearch.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbsearch.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -147,9 +155,10 @@
             tbsearch.Name = "tbsearch";
             tbsearch.PlaceholderText = "Search-----------------------------------";
             tbsearch.SelectedText = "";
-            tbsearch.ShadowDecoration.CustomizableEdges = customizableEdges29;
+            tbsearch.ShadowDecoration.CustomizableEdges = customizableEdges4;
             tbsearch.Size = new Size(194, 31);
             tbsearch.TabIndex = 92;
+            tbsearch.TextChanged += tbsearch_TextChanged;
             // 
             // label2
             // 
@@ -161,13 +170,14 @@
             label2.TabIndex = 93;
             label2.Text = "Search";
             // 
-            // listBox1
+            // ListBoxMedcine
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(20, 198);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(194, 679);
-            listBox1.TabIndex = 94;
+            ListBoxMedcine.FormattingEnabled = true;
+            ListBoxMedcine.Location = new Point(20, 198);
+            ListBoxMedcine.Name = "ListBoxMedcine";
+            ListBoxMedcine.Size = new Size(194, 679);
+            ListBoxMedcine.TabIndex = 94;
+            ListBoxMedcine.SelectedIndexChanged += ListBoxMedcine_SelectedIndexChanged;
             // 
             // label7
             // 
@@ -182,22 +192,22 @@
             // DTBExpierDate
             // 
             DTBExpierDate.Checked = true;
-            DTBExpierDate.CustomizableEdges = customizableEdges30;
+            DTBExpierDate.CustomizableEdges = customizableEdges5;
+            DTBExpierDate.Enabled = false;
             DTBExpierDate.Font = new Font("Segoe UI", 9F);
             DTBExpierDate.Format = DateTimePickerFormat.Long;
             DTBExpierDate.Location = new Point(246, 428);
             DTBExpierDate.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             DTBExpierDate.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             DTBExpierDate.Name = "DTBExpierDate";
-            DTBExpierDate.ShadowDecoration.CustomizableEdges = customizableEdges31;
+            DTBExpierDate.ShadowDecoration.CustomizableEdges = customizableEdges6;
             DTBExpierDate.Size = new Size(200, 36);
             DTBExpierDate.TabIndex = 135;
             DTBExpierDate.Value = new DateTime(2025, 4, 27, 13, 16, 58, 328);
-            DTBExpierDate.Visible = false;
             // 
             // tbMedicineID
             // 
-            tbMedicineID.CustomizableEdges = customizableEdges32;
+            tbMedicineID.CustomizableEdges = customizableEdges7;
             tbMedicineID.DefaultText = "";
             tbMedicineID.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbMedicineID.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -212,16 +222,15 @@
             tbMedicineID.PlaceholderText = "";
             tbMedicineID.ReadOnly = true;
             tbMedicineID.SelectedText = "";
-            tbMedicineID.ShadowDecoration.CustomizableEdges = customizableEdges33;
+            tbMedicineID.ShadowDecoration.CustomizableEdges = customizableEdges8;
             tbMedicineID.Size = new Size(200, 36);
             tbMedicineID.TabIndex = 132;
             // 
-          
             // btprintpurchase
             // 
             btprintpurchase.BorderRadius = 15;
             btprintpurchase.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            btprintpurchase.CustomizableEdges = customizableEdges36;
+            btprintpurchase.CustomizableEdges = customizableEdges9;
             btprintpurchase.DisabledState.BorderColor = Color.DarkGray;
             btprintpurchase.DisabledState.CustomBorderColor = Color.DarkGray;
             btprintpurchase.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -233,18 +242,19 @@
             btprintpurchase.ImageSize = new Size(25, 25);
             btprintpurchase.Location = new Point(709, 920);
             btprintpurchase.Name = "btprintpurchase";
-            btprintpurchase.ShadowDecoration.CustomizableEdges = customizableEdges37;
+            btprintpurchase.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btprintpurchase.Size = new Size(147, 45);
             btprintpurchase.TabIndex = 128;
             btprintpurchase.Text = "Purchase & print";
+            btprintpurchase.Click += btprintpurchase_Click;
             // 
             // guna2Panel1
             // 
             guna2Panel1.BackColor = Color.MidnightBlue;
-            guna2Panel1.CustomizableEdges = customizableEdges38;
+            guna2Panel1.CustomizableEdges = customizableEdges11;
             guna2Panel1.Location = new Point(493, 74);
             guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges39;
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2Panel1.Size = new Size(6, 500);
             guna2Panel1.TabIndex = 127;
             // 
@@ -296,7 +306,7 @@
             pbImage.ImageRotate = 0F;
             pbImage.Location = new Point(552, 401);
             pbImage.Name = "pbImage";
-            pbImage.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            pbImage.ShadowDecoration.CustomizableEdges = customizableEdges13;
             pbImage.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             pbImage.Size = new Size(157, 145);
             pbImage.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -316,12 +326,13 @@
             // 
             // tbMedicineName
             // 
-            tbMedicineName.CustomizableEdges = customizableEdges41;
+            tbMedicineName.CustomizableEdges = customizableEdges14;
             tbMedicineName.DefaultText = "";
             tbMedicineName.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbMedicineName.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             tbMedicineName.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             tbMedicineName.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tbMedicineName.Enabled = false;
             tbMedicineName.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbMedicineName.Font = new Font("Segoe UI", 9F);
             tbMedicineName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
@@ -330,18 +341,19 @@
             tbMedicineName.PlaceholderText = "";
             tbMedicineName.ReadOnly = true;
             tbMedicineName.SelectedText = "";
-            tbMedicineName.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            tbMedicineName.ShadowDecoration.CustomizableEdges = customizableEdges15;
             tbMedicineName.Size = new Size(200, 36);
             tbMedicineName.TabIndex = 119;
             // 
             // tbPricePerunit
             // 
-            tbPricePerunit.CustomizableEdges = customizableEdges43;
+            tbPricePerunit.CustomizableEdges = customizableEdges16;
             tbPricePerunit.DefaultText = "";
             tbPricePerunit.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbPricePerunit.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             tbPricePerunit.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             tbPricePerunit.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tbPricePerunit.Enabled = false;
             tbPricePerunit.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbPricePerunit.Font = new Font("Segoe UI", 9F);
             tbPricePerunit.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
@@ -350,13 +362,13 @@
             tbPricePerunit.PlaceholderText = "";
             tbPricePerunit.ReadOnly = true;
             tbPricePerunit.SelectedText = "";
-            tbPricePerunit.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            tbPricePerunit.ShadowDecoration.CustomizableEdges = customizableEdges17;
             tbPricePerunit.Size = new Size(200, 36);
             tbPricePerunit.TabIndex = 118;
             // 
             // tbnoofUnits
             // 
-            tbnoofUnits.CustomizableEdges = customizableEdges45;
+            tbnoofUnits.CustomizableEdges = customizableEdges18;
             tbnoofUnits.DefaultText = "";
             tbnoofUnits.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbnoofUnits.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -369,9 +381,11 @@
             tbnoofUnits.Name = "tbnoofUnits";
             tbnoofUnits.PlaceholderText = "";
             tbnoofUnits.SelectedText = "";
-            tbnoofUnits.ShadowDecoration.CustomizableEdges = customizableEdges46;
+            tbnoofUnits.ShadowDecoration.CustomizableEdges = customizableEdges19;
             tbnoofUnits.Size = new Size(200, 36);
             tbnoofUnits.TabIndex = 117;
+            tbnoofUnits.TextChanged += tbnoofUnits_TextChanged;
+            tbnoofUnits.Validating += tbnoofUnits_Validating;
             // 
             // label1
             // 
@@ -385,7 +399,7 @@
             // 
             // tbtotalprice
             // 
-            tbtotalprice.CustomizableEdges = customizableEdges47;
+            tbtotalprice.CustomizableEdges = customizableEdges20;
             tbtotalprice.DefaultText = "";
             tbtotalprice.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbtotalprice.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -397,33 +411,35 @@
             tbtotalprice.Location = new Point(246, 510);
             tbtotalprice.Name = "tbtotalprice";
             tbtotalprice.PlaceholderText = "";
+            tbtotalprice.ReadOnly = true;
             tbtotalprice.SelectedText = "";
-            tbtotalprice.ShadowDecoration.CustomizableEdges = customizableEdges48;
+            tbtotalprice.ShadowDecoration.CustomizableEdges = customizableEdges21;
             tbtotalprice.Size = new Size(200, 36);
             tbtotalprice.TabIndex = 140;
             // 
             // guna2DataGridView1
             // 
-            dataGridViewCellStyle4.BackColor = Color.White;
-            guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = Color.White;
+            guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             guna2DataGridView1.BorderStyle = BorderStyle.Fixed3D;
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle5.ForeColor = Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-            guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = Color.White;
-            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle6.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
-            guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            guna2DataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6 });
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
             guna2DataGridView1.Location = new Point(246, 627);
             guna2DataGridView1.Name = "guna2DataGridView1";
@@ -451,12 +467,49 @@
             guna2DataGridView1.ThemeStyle.RowsStyle.Height = 25;
             guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            guna2DataGridView1.CellClick += guna2DataGridView1_CellClick;
+            guna2DataGridView1.CellContentClick += guna2DataGridView1_CellContentClick;
+            // 
+            // Column1
+            // 
+            Column1.FillWeight = 126.903557F;
+            Column1.HeaderText = "MId";
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.FillWeight = 93.27411F;
+            Column2.HeaderText = "MName";
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.FillWeight = 93.27411F;
+            Column3.HeaderText = "ExpierDate";
+            Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            Column4.FillWeight = 93.27411F;
+            Column4.HeaderText = "Price Per Unit";
+            Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            Column5.FillWeight = 93.27411F;
+            Column5.HeaderText = "No Of Unit";
+            Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            Column6.HeaderText = "TotalPrice";
+            Column6.Name = "Column6";
             // 
             // btremove
             // 
             btremove.BorderRadius = 15;
             btremove.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            btremove.CustomizableEdges = customizableEdges49;
+            btremove.CustomizableEdges = customizableEdges22;
             btremove.DisabledState.BorderColor = Color.DarkGray;
             btremove.DisabledState.CustomBorderColor = Color.DarkGray;
             btremove.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -468,32 +521,56 @@
             btremove.ImageSize = new Size(25, 25);
             btremove.Location = new Point(246, 920);
             btremove.Name = "btremove";
-            btremove.ShadowDecoration.CustomizableEdges = customizableEdges50;
+            btremove.ShadowDecoration.CustomizableEdges = customizableEdges23;
             btremove.Size = new Size(112, 45);
             btremove.TabIndex = 144;
             btremove.Text = "Remove";
+            btremove.Click += btremove_Click;
             // 
-            // label5
+            // lltotal
             // 
-            label5.BackColor = Color.FromArgb(255, 192, 192);
-            label5.Font = new Font("Calibri", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(493, 936);
-            label5.Name = "label5";
-            label5.Size = new Size(90, 29);
-            label5.TabIndex = 145;
-            label5.Text = "RS. 00";
-            label5.TextAlign = ContentAlignment.MiddleCenter;
+            lltotal.BackColor = Color.FromArgb(255, 192, 192);
+            lltotal.Font = new Font("Calibri", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lltotal.Location = new Point(493, 936);
+            lltotal.Name = "lltotal";
+            lltotal.Size = new Size(90, 29);
+            lltotal.TabIndex = 145;
+            lltotal.Text = "RS. 00";
+            lltotal.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // guna2Elipse1
             // 
             guna2Elipse1.TargetControl = this;
+            // 
+            // btaddcart
+            // 
+            btaddcart.BorderRadius = 15;
+            btaddcart.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            btaddcart.CustomizableEdges = customizableEdges24;
+            btaddcart.DisabledState.BorderColor = Color.DarkGray;
+            btaddcart.DisabledState.CustomBorderColor = Color.DarkGray;
+            btaddcart.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btaddcart.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btaddcart.FillColor = Color.Navy;
+            btaddcart.Font = new Font("Segoe UI", 9F);
+            btaddcart.ForeColor = Color.White;
+            btaddcart.Image = Properties.Resources.add_to_cart_40px1;
+            btaddcart.ImageSize = new Size(25, 25);
+            btaddcart.Location = new Point(732, 576);
+            btaddcart.Name = "btaddcart";
+            btaddcart.ShadowDecoration.CustomizableEdges = customizableEdges25;
+            btaddcart.Size = new Size(112, 45);
+            btaddcart.TabIndex = 146;
+            btaddcart.Text = "Add Cart";
+            btaddcart.Click += btaddcart_Click;
             // 
             // UC_Sell_Medicine
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ScrollBar;
-            Controls.Add(label5);
+            Controls.Add(btaddcart);
+            Controls.Add(lltotal);
             Controls.Add(btremove);
             Controls.Add(guna2DataGridView1);
             Controls.Add(label1);
@@ -512,7 +589,7 @@
             Controls.Add(tbMedicineName);
             Controls.Add(tbPricePerunit);
             Controls.Add(tbnoofUnits);
-            Controls.Add(listBox1);
+            Controls.Add(ListBoxMedcine);
             Controls.Add(tbsearch);
             Controls.Add(label2);
             Controls.Add(btReset);
@@ -535,7 +612,7 @@
         private Label DA;
         private Guna.UI2.WinForms.Guna2TextBox tbsearch;
         private Label label2;
-        private ListBox listBox1;
+        private ListBox ListBoxMedcine;
         public Label lbAddQuantity;
         public Guna.UI2.WinForms.Guna2TextBox tbaddquantity;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtbManufactuningDate;
@@ -559,7 +636,14 @@
         private Guna.UI2.WinForms.Guna2TextBox tbtotalprice;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private Guna.UI2.WinForms.Guna2Button btremove;
-        private Label label5;
+        private Label lltotal;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2Button btaddcart;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column5;
+        private DataGridViewTextBoxColumn Column6;
     }
 }

@@ -69,7 +69,7 @@ namespace PharmacyManagement.Screen.Parmacit
             uC_MedicineValidityCheck1 = new Pharmacist.UC_MedicineValidityCheck();
             uC_AddMedicine3 = new Pharmacist.UC_AddMedicine(clsGlobal.Medicine);
             uC_AddMedicine2 = new Pharmacist.UC_AddMedicine(clsGlobal.Medicine); uC_ViewMedicine1 = new Pharmacist.UC_ViewMedicine();
-                  uC_AddNewUse1 = new User.UC_AddNewUse(clsGlobal.CurrentUser); uC_AddMedicine1 = new Pharmacist.UC_AddMedicine();
+            uC_AddNewUse1 = new User.UC_AddNewUse(clsGlobal.CurrentUser); uC_AddMedicine1 = new Pharmacist.UC_AddMedicine();
             uC_Dashbord1 = new Pharmacist.UC_Dashbord();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(components);
@@ -100,6 +100,7 @@ namespace PharmacyManagement.Screen.Parmacit
             panel1.Name = "panel1";
             panel1.Size = new Size(343, 1053);
             panel1.TabIndex = 3;
+            panel1.Paint += panel1_Paint;
             // 
             // guna2Button3
             // 

@@ -87,6 +87,7 @@ namespace PharmacyManagement.Screen.Parmacit
                     }
 
                     uC_AddMedicine2._medicine = clsGlobal.Medicine;
+
                     uC_AddMedicine2._LodDatatolabl();
                     uC_AddMedicine2.Visible = true;
                     uC_AddMedicine2.BringToFront();
@@ -155,6 +156,11 @@ namespace PharmacyManagement.Screen.Parmacit
         }
 
         private void uC_Sell_Medicine1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

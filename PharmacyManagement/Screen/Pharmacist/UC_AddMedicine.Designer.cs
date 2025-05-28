@@ -369,6 +369,7 @@
             tbMedicineNumber.ShadowDecoration.CustomizableEdges = customizableEdges12;
             tbMedicineNumber.Size = new Size(200, 36);
             tbMedicineNumber.TabIndex = 107;
+            tbMedicineNumber.TextChanged += tbMedicineNumber_TextChanged;
             tbMedicineNumber.Validating += tbMedicineNumber_Validating;
             // 
             // label7

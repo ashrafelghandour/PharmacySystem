@@ -42,6 +42,8 @@ namespace PharmacyManagement.Screen.Pharmacist
         public void _LodDatatolabl()
         {
             _resetAllTextBox();
+            _mode = enMode.Update;
+
             _medicine = clsGlobal.Medicine;
             lbMode.Text = "Update Medicine";
 
@@ -83,6 +85,10 @@ namespace PharmacyManagement.Screen.Pharmacist
 
         private void _resetAllTextBox()
         {
+            lbAddQuantity.Visible = false;
+            tbaddquantity.Visible = false;
+            tbMedicineID.Text = "";
+            _mode = enMode.Add;
             tbquntity.Clear();
             tbMedicineNumber.Clear();
             tbPricePerunit.Clear();
@@ -124,7 +130,8 @@ namespace PharmacyManagement.Screen.Pharmacist
         }
 
         private void tbquntity_TextChanged(object sender, EventArgs e)
-        {
+       
+       {
 
         }
 
@@ -220,7 +227,7 @@ namespace PharmacyManagement.Screen.Pharmacist
                         }
 
 
-                        var medicine = db.Medicines.ToList().FirstOrDefault(clsGlobal.Medicine);
+                        var medicine = db.Medicines.ToList().FirstOrDefault(m => m.Id == clsGlobal.Medicine.Id);
                         if (medicine == null)
                         {
 
@@ -245,12 +252,12 @@ namespace PharmacyManagement.Screen.Pharmacist
                         db.SaveChanges();
                         MessageBox.Show("Data Updated Successfully.", "Updated", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                       
+
                     }
                     else
                     {
 
-                        if (tbquntity.Text == "" || tbMedicineNumber.Text == "" || tbPricePerunit.Text == "" || tbMedicineName.Text == "" )
+                        if (tbquntity.Text == "" || tbMedicineNumber.Text == "" || tbPricePerunit.Text == "" || tbMedicineName.Text == "")
                         {
                             MessageBox.Show("Some fileds are not valide!, put the mouse over the red icon(s) to see the erro", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             return;
@@ -327,7 +334,8 @@ namespace PharmacyManagement.Screen.Pharmacist
                     // ...
                 }
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
 
                 MessageBox.Show(ex.Message);
             }
@@ -350,9 +358,9 @@ namespace PharmacyManagement.Screen.Pharmacist
                 using (AppDbContext db = new AppDbContext())
                 {
 
-                   clsGlobal.Medicine = db.Medicines.FirstOrDefault(m => m.Number == int.Parse(tbsearch.Text.Trim()));
-                   
-                    if(clsGlobal.Medicine is  null)
+                    clsGlobal.Medicine = db.Medicines.FirstOrDefault(m => m.Number == int.Parse(tbsearch.Text.Trim()));
+
+                    if (clsGlobal.Medicine is null)
                     {
                         MessageBox.Show($"No Medicine With ID {tbsearch.Text}", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -383,13 +391,18 @@ namespace PharmacyManagement.Screen.Pharmacist
             }
 
 
-          
+
             else
             {
                 e.Cancel = false;
                 return;
 
             }
+        }
+
+        private void tbMedicineNumber_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -153,6 +153,7 @@
             DGVlist.ThemeStyle.RowsStyle.Height = 25;
             DGVlist.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             DGVlist.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            DGVlist.CellContentClick += DGVlist_CellContentClick;
             // 
             // lbSet
             // 
